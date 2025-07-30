@@ -1,0 +1,72 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'LuxuryHeading';
+  src: url('/luxury_heading.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'SubHeading';
+  src: url('/NotoColorEmoji.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: 'goldmanBold';
+  src: url('/Goldman-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'goldmanRegular';
+  src: url('/Goldman-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'lobster_regular';
+  src: url('/LobsterTwo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.goldman_nav, .bookTableBtn{
+  font-family: 'goldmanRegular';
+}
+
+.headline, .patoPlace, .nav_menu_heading{
+  font-family: 'LuxuryHeading' ;
+}
+.ourSignatureDishesh, .whyToChooseUs, .whatOurCustomesSay, .aboutUs, .ourVision, .bookATable{
+  font-family: 'SubHeading' ;
+}
+
+
+.cards, .testimonial_quotes, .ourVision_para{
+  font-family: 'lobster_regular' ;
+}
+
+/* @font-face {
+    font-family: 'luxury_font';
+    src: url('/public/luxury_heading.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'sub_text';
+    src: url('/public/NotoColorEmoji.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  } */
