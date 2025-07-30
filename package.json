@@ -1,7 +1,7 @@
 {
   "name": "restaurant_template_one",
   "version": "1.0.0",
-  "homepage": "https://mahajang214.github.io/restaurant_template_one",
+  "homepage": "https://mahajang214.github.io/restaurant_template_one/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
