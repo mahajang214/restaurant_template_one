@@ -14,7 +14,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           react: ['react', 'react-dom'],
-          vendor: ['swiper', 'lodash'], // Add other big libraries here
+          vendor: ['swiper', 'lodash'],
         }
       }
     }
