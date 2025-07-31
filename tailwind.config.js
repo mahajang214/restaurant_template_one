@@ -6,7 +6,6 @@ export default  {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx,html}"
   ],
-  base: '/restaurant_template_one/',
   theme: {
     extend: {
       fontFamily: {
