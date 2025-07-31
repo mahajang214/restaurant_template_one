@@ -7,5 +7,16 @@ export default defineConfig({
   base: '/restaurant_template_one/', // ✅ Required for GitHub Pages
   css: {
     postcss
+  },
+  build: {
+    chunkSizeWarningLimit: 1000,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          react: ['react', 'react-dom'],
+          vendor: ['swiper', 'lodash'], // Add other big libraries here
+        }
+      }
+    }
   }
 })
