@@ -4,7 +4,7 @@ import postcss from './postcss.config.js'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/restaurant_template_one/', 
+  base: "/restaurant_template_one", 
   css: {
     postcss
   },
